@@ -4,8 +4,8 @@ local rareHorses ={}
 local spawntimerRare = Config.spawntimerRare * 6000
 local spawntimer = Config.spawntimer * 6000
 local triggeractive =false
-local totalkeysRare = listentrys(Config.rareLocations)
-local totalkeys = listentrys(Config.Locations)
+local totalkeysRare = Listentrys(Config.rareLocations)
+local totalkeys = Listentrys(Config.Locations)
 
 
 Citizen.CreateThread(function()
