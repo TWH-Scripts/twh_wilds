@@ -2,13 +2,12 @@
 
 Spawning wild animals
 
-## Dependency
+## Dependencies
 - Vorp Core
 
 
-
-## instalation
--`ensure twh_wilds` in your resources.cfg
+## Installation
+- `ensure twh_wilds` in your resources.cfg
 - edit the config file
 - start your server 
 
@@ -19,7 +18,6 @@ Spawning wild animals
 - Difference between rare spawns and common spawns
 - Easy to config spawntimer, models and locations
 - Comes with all Horses that are not spawning naturally
-
 
 
 ## Support 
