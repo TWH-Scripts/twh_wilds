@@ -4,6 +4,18 @@ local rareHorses ={}
 local spawntimerRare = Config.spawntimerRare * 6000
 local spawntimer = Config.spawntimer * 6000
 local triggeractive =false
+
+
+
+function Listentrys(table)
+    local keys = 0
+    for k,v in pairs(table) do
+       keys = keys + 1
+    end
+    return keys
+end
+
+
 local totalkeysRare = Listentrys(Config.rareLocations)
 local totalkeys = Listentrys(Config.Locations)
 
@@ -151,13 +163,6 @@ function Spawning()
 end
 
 
-function Listentrys(table)
-    local keys = 0
-    for k,v in pairs(table) do
-       keys = keys + 1
-    end
-    return keys
-end
 
 
 function GetPlayers()
