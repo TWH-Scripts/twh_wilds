@@ -1,6 +1,6 @@
-# twh_wilds
+# twh_wilds [DEPRECATED]
 
-Spawning wild animals
+Spawning wild animals 
 
 ## Dependencies
 - Vorp Core
